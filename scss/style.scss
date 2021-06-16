@@ -1,0 +1,52 @@
+$primary:#6610f2;
+// lead size
+$font-size-base:1.5rem; 
+$display-font-sizes: (
+  1: 12rem,
+  2: 5.5rem,
+  3: 5rem,
+  4: 4.5rem,
+  5: 1.2rem,
+  6: 2rem
+) !default;
+$form-label-margin-bottom:0.7rem;
+// maybe space after input
+$form-text-margin-top: 0.25rem;
+$enable-rounded: false;
+$card-border-color:$primary;
+$black:black;
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+
+
+@import "bootstrap/bootstrap";
+
+body {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.h100vh{
+    height:100vh;
+}
+.img-bg{
+    background: url(../src/images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pos-abs-20vh{
+    position:absolute;
+    bottom:20%;
+}
+
+.box-150{
+    width: 150px;
+    height: 150px;
+}
+
+.bg-black{
+    background-color: $black;
+}
+
+
+
